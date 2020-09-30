@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package calc;
+import "google/api/annotations.proto";
+option go_package="calcpb";
+
+
+message SumRequest {
+    int32 first_number = 1;
+    int32 second_number = 2;
+}
+
+message SumResponse {
+    int32 result = 1;
+}
+
+message SumMoreRequest {
+    int32 first_number = 1;
+    int32 second_number = 2;
+}
+
+message SumMoreResponse {
+    int32 result = 1;
+}
+
+service SumService{
+    //Unary
+    rpc Sum (SumRequest) returns (SumResponse) {
+        option (google.api.http) = {
+            post: "/api/v1/calc"
+            body: "*"
+        };
+    };
+
+}
+
