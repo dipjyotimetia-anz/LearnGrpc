@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/dipjyotimetia/gogrpc/calculator/calcpb"
-	"google.golang.org/grpc"
 	"log"
 	"testing"
+
+	"github.com/dipjyotimetia-anz/gogrpc/calculator/calcpb"
+	"google.golang.org/grpc"
 )
 
 func BenchmarkClientSum(b *testing.B) {

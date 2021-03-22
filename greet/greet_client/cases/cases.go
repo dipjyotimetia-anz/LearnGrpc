@@ -1,6 +1,6 @@
 package cases
 
-import "github.com/dipjyotimetia/gogrpc/greet/greetpb"
+import "github.com/dipjyotimetia-anz/gogrpc/greet/greetpb"
 
 type Suite []Case
 

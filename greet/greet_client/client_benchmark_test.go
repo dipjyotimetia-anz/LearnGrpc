@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/dipjyotimetia/gogrpc/greet/greetpb"
-	"google.golang.org/grpc"
 	"log"
 	"testing"
+
+	"github.com/dipjyotimetia-anz/gogrpc/greet/greetpb"
+	"google.golang.org/grpc"
 )
 
 func BenchmarkDoUnary(b *testing.B) {

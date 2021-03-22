@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dipjyotimetia/gogrpc/greet/greet_client/cases"
-	"github.com/dipjyotimetia/gogrpc/greet/greetpb"
+	"github.com/dipjyotimetia-anz/gogrpc/greet/greet_client/cases"
+	"github.com/dipjyotimetia-anz/gogrpc/greet/greetpb"
 	tassert "github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 	"google.golang.org/grpc"
