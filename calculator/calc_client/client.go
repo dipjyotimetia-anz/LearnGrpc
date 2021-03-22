@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/dipjyotimetia/gogrpc/calculator/calcpb"
+	"github.com/dipjyotimetia-anz/gogrpc/calculator/calcpb"
 	"google.golang.org/grpc"
 )
 
