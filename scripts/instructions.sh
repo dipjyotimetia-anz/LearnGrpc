@@ -1,5 +1,4 @@
-
-
+#!/bin/bash
 openssl genrsa -passout pass:1111 -des3 -out ca.key 4096
 openssl req -passin pass:1111 -new -x509 -days 365 -key ca.key -out ca.crt -subj "//CN=localhost"
 
