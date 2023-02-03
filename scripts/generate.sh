@@ -13,3 +13,5 @@ protoc -I calculator/calcpb -I calculator/calcpb/ --grpc-gateway_out=logtostderr
 protoc -I calculator/calcpb -I calculator/calcpb/ --swagger_out ./gen/swagger --swagger_opt logtostderr=true calculator/calcpb/calc.proto
 
 protoc -I blog/blogpb -I blog/blogpb/ --swagger_out ./gen/swagger --swagger_opt logtostderr=true blog/blogpb/blog.proto
+
+
